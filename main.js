@@ -1,4 +1,4 @@
-const MAX_SIZE = 750;
+const MAX_SIZE = 600;
 
 const body = document.body;
 const btn = document.querySelector("#btn");
@@ -58,6 +58,9 @@ const createGrid = (x) => {
 
             rowItem.addEventListener("mouseover", function () {
                 if (isMouseDown) this.style.background = "#eb5e28";
+            })
+            rowItem.addEventListener("mousedown", function () {
+                this.style.background = "#eb5e28";
             })
             row.appendChild(rowItem);
             

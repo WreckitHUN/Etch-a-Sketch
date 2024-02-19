@@ -51,7 +51,10 @@ button:hover{
     background: #252422;
     width: 50px;
     height: 50px;
-    transition: all 0.1s;
+}
+
+.row__content:hover{
+    background: #eb5e28;
 }
 
 
