@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Standard syntax */
+}
+
+button{
+    padding: 1rem 2.5rem;
+    border: 0;
+    border-radius: 16px;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    background: #252422;
+    color: #fffcf2;
+
+    transition: all 0.15s;
+}
+
+button:hover{
+    background: #eb5e28;
+    color: #252422;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row__content{
+    background: #252422;
+    width: 50px;
+    height: 50px;
+    transition: all 0.1s;
+}
+
+
+
